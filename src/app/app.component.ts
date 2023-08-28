@@ -8,3 +8,5 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'apepic';
 }
+
+const logoimagepath = '/assets/ApEPIC-cropped.svg';
