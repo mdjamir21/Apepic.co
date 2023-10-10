@@ -8,6 +8,17 @@
     margin-right: 0.5vw;    
 }
 
+.d-flex justify-content-center
+{
+  padding-top:200px;
+  margin-top: 200px;
+}
+
+#photocon
+{
+  margin-top: 50px;
+}
+
 #social
 {
     position:sticky;
