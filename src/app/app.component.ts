@@ -1,4 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, ViewChild } from '@angular/core';
+import { Router, NavigationStart, NavigationEnd } from '@angular/router';
+import { PhotoComponent} from './photo/photo.component';
 
 @Component({
   selector: 'app-root',
@@ -7,6 +9,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'apepic';
+
 }
 
 const logoimagepath = '/assets/ApEPIC-cropped.svg';

@@ -2,3 +2,48 @@
 {
   
 }
+
+
+
+
+
+
+
+.row
+{
+    padding: 10px;
+    justify-items: center;
+    justify-content: center;
+}
+
+.lead
+{
+    text-size-adjust: 2rem;
+}
+
+.card
+{
+    min-height: 25px;
+    min-width: 30vw;
+    justify-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.card-title
+{
+    justify-content: center;
+    justify-items: center;
+
+}
+
+.card-body
+{
+    justify-content: center;
+    justify-items: center;
+}
+
+.col
+{
+    width: 100vw;
+}

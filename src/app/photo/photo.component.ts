@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 
+
 @Component({
   selector: 'app-photo',
   templateUrl: './photo.component.html',
@@ -8,6 +9,7 @@ import { ActivatedRoute } from '@angular/router';
 })
 export class PhotoComponent implements OnInit {
   imageUrl!: string;
+  hidetitle = false;
 
   constructor(private route: ActivatedRoute) { }
 
