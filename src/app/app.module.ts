@@ -6,6 +6,8 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 import { AppRoutingModule } from './app-routing.module';
 import { PhotoComponent } from './photo/photo.component';
+import { NgOptimizedImage } from '@angular/common';
+
 
 @NgModule({
   declarations: [
@@ -15,7 +17,8 @@ import { PhotoComponent } from './photo/photo.component';
   imports: [
     BrowserModule,
     NgbModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgOptimizedImage
   ],
   providers: [],
   bootstrap: [AppComponent]

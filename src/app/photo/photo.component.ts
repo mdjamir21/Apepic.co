@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
+import { NgOptimizedImage } from '@angular/common'
 
 
 @Component({
@@ -9,8 +10,7 @@ import { ActivatedRoute } from '@angular/router';
 })
 export class PhotoComponent implements OnInit {
   imageUrl!: string;
-  hidetitle = false;
-
+  
   constructor(private route: ActivatedRoute) { }
 
   ngOnInit(): void {

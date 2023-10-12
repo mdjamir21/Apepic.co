@@ -9,7 +9,8 @@ import { PhotoComponent} from './photo/photo.component';
 })
 export class AppComponent {
   title = 'apepic';
-
+  showElement = true; 
+  isActive = false;
 }
 
 const logoimagepath = '/assets/ApEPIC-cropped.svg';
